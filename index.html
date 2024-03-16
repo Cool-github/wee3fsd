@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <div class="container">  
+        <div class="header">
+            <h2>Register here</h2>
+        </div>
+<form class="form" id="form">
+    <div class="field">
+        <label>username</label> 
+        <input type="text" placeholder=" name" id="uname" >
+        <small>error message </small>
+    </div>
+    <br>
+    <div class="field">
+<label>email</label>
+<input type="email" placeholder=" abc@gmail.com" id="email">
+<small>error message</small>
+    </div>
+    <br>
+<div class="field"> 
+    <label>password</label>
+    <input type="password" placeholder=" ******" id="pass">
+    <small>error message</small>
+</div>
+<br>
+<div class="field"> 
+    <label>confirm password</label>
+    <input type="password" placeholder=" ******" id="cpass">
+    <small>error message</small>
+</div>
+<br>
+
+<div class="field">
+<input type="checkbox" id="tc" class="terms">
+<label> I agree to terms and condition</label>
+<small style="padding-left: 30px;">   error message</small>
+</div>
+<br>
+<div>
+    <input type="submit" value="Register" id="reg">
+    </div>
+
+    </form>
+        
+</div>
+        
+  <script src="validation.js"></script>  
+    
+
+</body>
+</html>
